@@ -43,7 +43,9 @@ Using this template to create a new Django app is easy::
 ## Configured urls
 
 Django admin `http://localhost:8000/admin/`
+
 Wagtail admin `http://localhost:8000/cms/`
+
 Wagtail pages `http://localhost:8000/pages/`
 
 ## License: MIT

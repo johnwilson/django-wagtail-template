@@ -19,15 +19,16 @@ To use this project, follow these steps:
 6. Create a new project using this template
 7. Rename env-sample to .env and edit
 8. Remember to include the dokku server in your .env
+9. Install [dokku_client.sh](http://dokku.viewdocs.io/dokku/community/clients/#bash-zsh-etc-dokku_clientsh)
 
 
 ## Creating Your Project
 
 Using this template to create a new Django app is easy::
 
-    $ django-admin.py startproject --template=<path_to_this_template> --name=env-sample  <project_name> .
+    $ django-admin.py startproject --template=https://github.com/johnwilson/django-wagtail-template/archive/master.zip --name=env-sample  <project_name> .
 
-## Deployment to Dokku (or Heroku)
+## Deployment to Dokku
 
     $ git init
     $ git add -A
@@ -39,6 +40,11 @@ Using this template to create a new Django app is easy::
 
     $ dokku run python manage.py createsuperuser
 
+## Configured urls
+
+Django admin `http://localhost:8000/admin/`
+Wagtail admin `http://localhost:8000/cms/`
+Wagtail pages `http://localhost:8000/pages/`
 
 ## License: MIT
 
@@ -47,3 +53,4 @@ Using this template to create a new Django app is easy::
 - [Gunicorn](https://warehouse.python.org/project/gunicorn/)
 - [dj-database-url](https://warehouse.python.org/project/dj-database-url/)
 - [wagtail](https://wagtail.io/)
+- [dokku_client.sh](https://github.com/dokku/dokku/blob/master/contrib/dokku_client.sh)

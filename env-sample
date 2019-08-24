@@ -1,0 +1,4 @@
+SECRET_KEY={{ secret_key }}
+DATABASE_URL=sqlite:///tmp.sqlite3
+DOKKU_APP={{ project_name }}
+DOKKU_SERVER=

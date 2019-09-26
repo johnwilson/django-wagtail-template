@@ -8,7 +8,7 @@ from decouple import config as conf
 
 
 # Global env variables
-env.user = 'ibt'
+env.user = conf("DOKKU_USER")
 env.hosts = [conf("DOKKU_SERVER")]
 
 app_name = conf("DOKKU_APP")

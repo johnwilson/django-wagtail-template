@@ -18,7 +18,7 @@ To use this project, follow these steps:
 5. Install dependencies (`$ pipenv install --dev fabric3`)
 6. Create a new project using this template
 7. Rename env-sample to .env and edit
-8. Remember to include the dokku server in your .env
+8. Remember to include the dokku server and system user in your .env
 9. Install [dokku_client.sh](http://dokku.viewdocs.io/dokku/community/clients/#bash-zsh-etc-dokku_clientsh)
 
 

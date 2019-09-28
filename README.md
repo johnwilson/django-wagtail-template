@@ -40,6 +40,10 @@ Using this template to create a new Django app is easy::
 
     $ dokku run python manage.py createsuperuser
 
+## Backuping up using rclone
+
+Use the `backup.sh` template to create a cron backup job. Modify it as necessary.
+
 ## Configured urls
 
 Django admin `http://localhost:8000/admin/`

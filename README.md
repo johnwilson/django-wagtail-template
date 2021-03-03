@@ -14,8 +14,8 @@ To use this project, follow these steps:
 1. Create your working directory.
 2. Create your environment (`$ pipenv shell --three`)
 3. Install Wagtail (`$ pipenv install wagtail`)
-4. Install Wagtail (`$ pipenv install psycopg2-binary gunicorn dj-database-url python-decouple`)
-5. Install dependencies (`$ pipenv install --dev fabric3`)
+4. Install other dependencies (`$ pipenv install psycopg2-binary gunicorn dj-database-url python-decouple`)
+5. Install dependencies (`$ pipenv install --dev fabric3 flake8`)
 6. Create a new project using this template
 7. Rename env-sample to .env and edit
 8. Remember to include the dokku server and system user in your .env
